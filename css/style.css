@@ -15,7 +15,7 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-.Boton{
+#Boton{
     border:none;
     margin: 33.3vw;
     font-family: "Mono", sans-serif;
@@ -25,10 +25,6 @@ body{
     border-radius: 2vw;
     transform: translate(-24vw, 0);
 
-}
-.Boton:hover{
-    width: 2vw;
-    transition: 2s;
 }
 #Textoboton{
     padding: 1vw;
@@ -56,4 +52,47 @@ body{
 }
 #circulo{
     width: 22vw;
+}
+.grid-container {
+    margin-top: 6vw;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    display: grid;
+}
+
+.grid-item {
+    transition: 0.2s;
+    border-radius: 2vw;
+    margin: 0.5vw;
+    background-color: rgb(32, 32, 32);
+    padding: 1vw;
+}
+.grid-item:hover {
+    transition: 0.2s;
+    transform: translate(0, -1vw);
+    border-radius: 2vw;
+    margin: 0.5vw;
+    background-color: rgb(32, 32, 32);
+    padding: 1vw;
+}
+
+.star{
+    width: 1.4vw;
+}
+
+
+#titlecont{
+    margin-top: 1vw;
+    font-family: "Mono", sans-serif;
+    font-size: 1.6vw;
+    color: #ffff;
+    max-width: max-content;
+}
+
+#titlecont1{
+    margin-top: 1vw;
+    font-family: "Mono", sans-serif;
+    font-size: 1vw;
+    color: #ffff;
+    max-width: max-content;
 }
