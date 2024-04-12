@@ -15,8 +15,8 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-#Boton{
-    transition: 1s;
+.Boton{
+    border:none;
     margin: 33.3vw;
     font-family: "Mono", sans-serif;
     font-size: 1vw;
@@ -24,17 +24,11 @@ body{
     margin-left: 6vw;
     border-radius: 2vw;
     transform: translate(-24vw, 0);
+
 }
-#Boton:hover{
-    transition-duration: 1s;
-    margin: 33.3vw;
-    font-family: "Mono", sans-serif;
-    font-size: 1vw;
-    position: absolute;
-    margin-left: 6vw;
-    border-radius: 2vw;
-    transform: translate(-24vw, 0);
-    width: 12vw;
+.Boton:hover{
+    width: 2vw;
+    transition: 2s;
 }
 #Textoboton{
     padding: 1vw;
