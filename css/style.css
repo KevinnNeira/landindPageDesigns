@@ -13,10 +13,8 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin: 3vw;
-    border: 1px solid black;
 }
 .item1{
-    border: 1px solid black;
     grid-row: 1;
     grid-column: 1/ span 4;
 }
