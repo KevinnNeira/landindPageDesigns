@@ -7,18 +7,25 @@
     src: url(../storage/font/avenir/AvenirLTStd-Roman.otf);
 }
 #title{
+    margin-left: 1vw;
+    font-size: 4.2vw;
+    margin-top: 6vw;
     text-align: left;
     font-family: "Avenir", sans-serif;
 }
 #Boton{
+    margin-left: 1vw;
+    font-size: 1.1vw;
     font-family: "Avenirp", sans-serif;
     float: left;
-    width: 8vw;
+    width: 10vw;
     padding: 0.9vw;
     filter: invert();
-    border-radius: 1.5vh;
+    border-radius: 1.5vw;
 }
 #contenido{
+    font-size: 2vw;
+    margin-left: 1vw;
     font-family: "Avenirp", sans-serif;
     text-align: left;
 }
@@ -28,9 +35,28 @@
     gap: 1vw;
     padding: 1vw;
 }
-
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid black;
     text-align: center;
+}
+#image1{
+    width:27vw;
+}
+#image2{
+    width:27vw;
+    margin-top: 6vw;
+}
+#image3,
+#image4,
+#image5
+{
+    width:27vw;
+}
+#numero{
+    transform: translate(0, 2vw);
+    margin-left: 2vw;
+    color: #605f5f;
+    font-family: "Avenir", sans-serif;
+    font-size: 2.3vw;
+    text-align: left;
 }
