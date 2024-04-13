@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(/storage/font/AvenirLTStd-Black.otf);
+}
+#circulo{
+    width: 6vw;
+}
+.gridcontainer{
+    margin: 3vw;
+    margin-left: 4vw;
+    grid-template-rows: 1,2fr;
+    grid-template-columns: 2,2fr;
+    border: 1px solid black;
+}
+#titulo{
+    margin-top: 4.9vw;
+    margin-left: 2vw;
+    text-align: left;
+    font-size: 3vw
+}
+#contbtitulo{
+    margin-left: 2vw;
+    text-align: left;
+    font-size: 1.5vw;
+}
+#Botonegro{
+    margin-left: 2vw;
+    width: 8.5vw;
+    padding: 0.9vw;
+    filter: invert();
+    border-radius: 1vw;
+    font-size: 1.4vw;
+    font-family: "Avenirp", sans-serif;
+}
+#Botonblanco{
+    margin-left: 2vw;
+    margin: 1vw;
+    width: 10.5vw;
+    padding: 0.9vw;
+    border-radius: 1vw;
+    font-size: 1.4vw;
+    font-family: "Avenirp", sans-serif;
+}
