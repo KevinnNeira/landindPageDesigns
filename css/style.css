@@ -7,7 +7,6 @@
     src: url(/storage/font/AvenirLTStd-Roman.otf);
 }
 .gridcontainer{
-    border: 1px solid black;
     display: grid;
     gap: 1vw;
     grid-template-columns: repeat(2, 1fr);
@@ -30,10 +29,21 @@
     font-family: "Avenirp", sans-serif;
 }
 #Boton{
+    padding: 0.9vw;
+    width: 10vw;
     margin-bottom: 1vw;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     filter: invert();
     float: left;
     font-family: "Avenirp", sans-serif;
-    border-radius: 1vw;
+    border-radius: 1.5vw;
+}
+#image{
+    text-align: center;
+    width: 90vw;
+}
+.centerimage{
+    margin-bottom: 4vw;
+    display: flex;
+    justify-content: center;
 }
