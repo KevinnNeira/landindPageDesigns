@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(/storage/font/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "Avenirp";
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
+.item{
+    margin: 1vw;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3vw;
+}
+.item1{
+    grid-row: 1;
+    grid-column: 1/ span 3;
+}
+#image{
+    width: 100%;
+}
+#titulo{
+    font-size: 5.5vw;
+    font-family: "Avenir",sans-serif;
+}
+#n1{
+    font-family: "Avenir",sans-serif;
+    margin: 0;
+    font-size: 2.5vw;
+}
+#cont1{
+    font-family: "Avenirp",sans-serif;
+    font-size: 1.5vw;
+}
