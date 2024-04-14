@@ -2,7 +2,10 @@
     font-family: "Avenir";
     src: url(/storage/font/AvenirLTStd-Black.otf);
 }
-
+@font-face {
+    font-family: "Avenirp";
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
 body{
     background-color: #9C2004;
 }
@@ -10,6 +13,7 @@ body{
     display: grid;
     border: 1px solid black;
     margin: 4vw;
+    margin-bottom: 0;
     grid-template-columns: repeat(2, 1fr);
 }
 .item1{
@@ -19,14 +23,16 @@ body{
     border: 1px solid black;
 }
 #titulo{
-    text-align: right;
+    margin-left: 11vw;
+    text-align: left;
     font-family: "Avenir", sans-serif;
     color: white;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 #sol{
+    margin-left: 2vw;
     z-index: -1;
-    width: 100%;
+    width: 90%;
 }
 #puntos,
 #puntos2{
@@ -37,8 +43,34 @@ body{
 #seño{
     position: absolute;
     max-width: 100%;
-    margin-left: 6vw;
-    margin-top: 4.2vw;
-    width: 32%;
+    margin-left: 4.5vw;
+    margin-top: 3.2vw;
+    width: 35%;
     z-index: +1;
+}
+#Cont{
+    margin-left: 11vw;
+    text-align: left;
+    align-items: center;
+    font-family: "Avenirp", sans-serif;
+    color: white;
+}
+#Boton{
+    margin-left: 11vw;
+    font-size: 1.4vw;
+    width: 10vw;
+    border: none;
+    padding: 1vw;
+    border-radius: 2vw;
+    font-family: "Avenirp", sans-serif;
+    background-color: #E5B94B;
+}
+#puntos{
+    width: 15vw;
+    margin-top: 0;
+}
+#puntos2{
+    width: 15vw;
+    margin-top: 31vw;
+    margin-left: 27vw;
 }
