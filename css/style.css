@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(/storage/font/AvenirLTStd-Black.otf);
+}
+
+body{
+    background-color: #9C2004;
+}
+.gridcontainer{
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: auto;
+    margin: 4vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+.item{
+    border: 1px solid black;
+}
+#titulo{
+    text-align: right;
+    font-family: "Avenir", sans-serif;
+    color: white;
+    font-size: 4vw;
+}
