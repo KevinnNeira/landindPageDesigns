@@ -10,16 +10,12 @@
     margin-left: 2vw;
     width: 6vw;
 }
-.item{
-    border: 1px solid black;
-}
 .gridcontainer{
     display: grid;
     margin: 4vw;
     margin-left: 5vw;
     grid-template-rows: auto;
     grid-template-columns: repeat(2,1fr);
-    border: 1px solid black;
 }
 #titulo{
     margin-top: 4.9vw;
@@ -35,7 +31,7 @@
 }
 #Botonegro{
     margin-left: 4vw;
-    width: 8.5vw;
+    width: 9.5vw;
     padding: 0.9vw;
     filter: invert();
     border-radius: 1vw;
@@ -115,16 +111,16 @@
     z-index: +1;
 }
 .txt1{
-    margin-left: 21vw;
-    margin-bottom: 28vw;
+    margin-left: 15vw;
+    margin-bottom: 25vw;
     border-radius: 1vw;
     z-index: +1;
     position: absolute;
     background-color: #685FD4;
 }
 .txt2{
-    margin-right: 26vw;
-    margin-top: 30vw;
+    margin-right: 23vw;
+    margin-top: 26vw;
     border-radius: 1vw;
     z-index: +1;
     position: absolute;
@@ -132,9 +128,9 @@
 }
 .txt{
     text-align: center;
-    width: 11vw;
-    padding: 0.3vw;
+    width: 12vw;
+    padding: 0.1vw;
     color: #ffffff;
-    font-size: 0.8vw;
+    font-size: 1vw;
     font-family: "Avenirp", sans-serif;
 }
