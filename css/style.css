@@ -22,3 +22,14 @@ body{
     color: white;
     font-size: 4vw;
 }
+#eclipse{
+    width: 100%;
+}
+#puntos{
+    margin-top: 6vw;
+}
+#seño{
+
+    width: 100%;
+    z-index: +1;
+}
