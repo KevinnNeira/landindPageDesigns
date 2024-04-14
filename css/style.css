@@ -11,16 +11,12 @@ body{
 }
 .gridcontainer{
     display: grid;
-    border: 1px solid black;
     margin: 4vw;
     margin-bottom: 0;
     grid-template-columns: repeat(2, 1fr);
 }
 .item1{
     display: flex;
-}
-.item{
-    border: 1px solid black;
 }
 #titulo{
     margin-left: 11vw;
@@ -56,9 +52,10 @@ body{
     color: white;
 }
 #Boton{
+    margin: 1vw;
     margin-left: 11vw;
     font-size: 1.4vw;
-    width: 10vw;
+    width: 12vw;
     border: none;
     padding: 1vw;
     border-radius: 2vw;
