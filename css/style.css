@@ -9,9 +9,11 @@ body{
 .gridcontainer{
     display: grid;
     border: 1px solid black;
-    grid-template-rows: auto;
     margin: 4vw;
     grid-template-columns: repeat(2, 1fr);
+}
+.item1{
+    display: flex;
 }
 .item{
     border: 1px solid black;
@@ -22,14 +24,21 @@ body{
     color: white;
     font-size: 4vw;
 }
-#eclipse{
+#sol{
+    z-index: -1;
     width: 100%;
 }
-#puntos{
+#puntos,
+#puntos2{
+    position: absolute;
+    width: 4vw;
     margin-top: 6vw;
 }
 #seño{
-
-    width: 100%;
+    position: absolute;
+    max-width: 100%;
+    margin-left: 6vw;
+    margin-top: 4.2vw;
+    width: 32%;
     z-index: +1;
 }
