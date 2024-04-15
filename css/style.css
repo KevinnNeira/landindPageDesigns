@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "PoppinsB";
+    src: url(/storage/font/Poppins-Bold.ttf);
+}
+#word1{
+    font-family: "PoppinsB", sans-serif;
+}
+body{
+    background-color: #2F2F2F;
+}
