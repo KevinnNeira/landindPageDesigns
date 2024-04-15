@@ -1,58 +1,77 @@
 @font-face {
-    font-family: "Avenir";
-    src: url(/storage/font/AvenirLTStd-Black.otf);
+    font-family: "PoppinsB";
+    src: url(/storage/font/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: "Avenirp";
     src: url(/storage/font/AvenirLTStd-Roman.otf);
 }
 body{
-    background-color: #c8cccf;
+    background: linear-gradient(135deg, #c8cccf, #97a3a3);
+    background-attachment: fixed;
 }
 .gridcontainer{
     display: flex;
-    border: 1px solid black;
 }
-.items{
-    border: 1px solid black;
-}
-#titulo{ 
-    margin-left: 24vw; 
-    margin-top: 2vw; 
-    font-family: “Avenir”, sans-serif; 
+#titulo{
+    position: absolute;
+    margin: 0;
+    margin-left: 20.6vw; 
+    margin-top: 1vw; 
+    font-family: "PoppinsB"; 
     color: #363830; 
-    font-size: 5vw; 
+    font-size: 6.2vw; 
 } 
 #contenido{ 
-    color: #363830; 
+    color: #363830;
+    margin: 0;
+    margin-top: 10vw; 
+    font-family: "Avenirp", sans-serif; 
+    font-size: 1.6vw; 
+    margin-left: 20.6vw;
     margin-bottom: 1vw; 
-   font-family: "Avenirp", sans-serif; 
-    font-size: 1.35vw; 
-    margin-left: 24vw; 
-    color: #363830; 
-
     }
 #Boton{
-    padding: 0.1vw;
     color: #ffffff;
 }  
 .Boton{
-
+    font-size: 1.2vw;
     font-family: "Avenirp", sans-serif;
     text-align: center;
     border-radius: 1.8vw; 
     display: inline-block; 
-    width: 10vw; 
+    width: 9.3vw; 
     background-color: #363830; 
-    margin-left: 24vw; 
+    margin-left: 20.6vw; 
     }     
 #Image1{
-    margin-top: 20vw;
+    top: 0;
+    z-index: -1; 
+    margin-left: 59vw;
     position: fixed;
-    width: 5vw;
+    width: 31vw;
 }
 #Image2{
+    margin-left: 1.5vw;
+    margin-top: 22.5vw;
+    z-index: -1;
     position: fixed;
-    width: 5vw;
-    margin-top: 0;
+    width: 30vw;
+
+}
+.lista{
+    background-color: #ffffff30;
+    text-align: left;
+    padding-left: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1.4vw;
+    margin-top: 33vw;
+    position: absolute;
+    font-family: "Avenirp", sans-serif;
+    margin-left: 26vw;
+    width: 60vw;
+    font-size: 0.9vw;
+    display: grid;
+    border-radius: 20vw;
+    grid-template-columns: repeat(3, 1fr);
 }
