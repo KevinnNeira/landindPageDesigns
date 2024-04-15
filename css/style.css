@@ -1,3 +1,53 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(/storage/font/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "Avenirp";
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
 body{
     background-color: #c8cccf;
+}
+.gridcontainer{
+    display: flex;
+    border: 1px solid black;
+}
+.items{
+    border: 1px solid black;
+}
+#titulo{
+    margin: 0;
+    margin-top: 4vw;
+    margin-left: 17.5vw;
+    font-size: 5vw;
+    font-family: "Avenir", sans-serif;
+}
+#contenido{
+    margin: 0;
+    margin-top: 1.2vw;
+    margin-left: 17.5vw;
+    font-size: 1.4vw;
+    font-family: "Avenirp", sans-serif;
+}
+#Boton{
+    filter: invert();
+    width: 9vw;
+    padding: 0.7vw;
+    border-radius: 1.5vw;
+    border: none;
+    margin-left: 17.5vw;
+    font-size: 1.2vw;
+    font-family: "Avenirp", sans-serif;
+    margin-bottom: 8vw;
+}
+#Image1{
+    margin-top: 20vw;
+    position: fixed;
+    width: 5vw;
+}
+#Image2{
+    position: fixed;
+    width: 5vw;
+    margin-top: 0;
 }
