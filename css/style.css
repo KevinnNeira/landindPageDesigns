@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(/storage/font/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "Avenirp";
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
+.gridcontainer{
+    display: grid   ;
+    grid-template-rows: repeat(2,2fr);
+    grid-template-columns: repeat(2,2fr);
+    border: 1px solid  black;
+}
+.item{
+    display: grid   ;
+    grid-template-columns: repeat(2,2 repeat);
+    border: 1px solid  black;
+}
+#titulo{
+    font-family: "Avenir",sans-serif;
+    font-size: 2vw;
+    color: #252525;
+}
+#contenido{
+    font-family: "Avenirp",sans-serif;
+
+}
+#Boton{
+    padding: 1vw;
+    background-color: #252525;
+}
+#img1{
+    width: 5vw;
+}
+#img2{
+    width: 5vw;
+}
+#cloud{
+    filter: invert();
+}
+
