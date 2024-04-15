@@ -16,31 +16,36 @@ body{
 .items{
     border: 1px solid black;
 }
-#titulo{
-    margin: 0;
-    margin-top: 4vw;
-    margin-left: 17.5vw;
-    font-size: 5vw;
-    font-family: "Avenir", sans-serif;
-}
-#contenido{
-    margin: 0;
-    margin-top: 1.2vw;
-    margin-left: 17.5vw;
-    font-size: 1.4vw;
-    font-family: "Avenirp", sans-serif;
-}
+#titulo{ 
+    margin-left: 24vw; 
+    margin-top: 2vw; 
+    font-family: “Avenir”, sans-serif; 
+    color: #363830; 
+    font-size: 5vw; 
+} 
+#contenido{ 
+    color: #363830; 
+    margin-bottom: 1vw; 
+   font-family: "Avenirp", sans-serif; 
+    font-size: 1.35vw; 
+    margin-left: 24vw; 
+    color: #363830; 
+
+    }
 #Boton{
-    filter: invert();
-    width: 9vw;
-    padding: 0.7vw;
-    border-radius: 1.5vw;
-    border: none;
-    margin-left: 17.5vw;
-    font-size: 1.2vw;
+    padding: 0.1vw;
+    color: #ffffff;
+}  
+.Boton{
+
     font-family: "Avenirp", sans-serif;
-    margin-bottom: 8vw;
-}
+    text-align: center;
+    border-radius: 1.8vw; 
+    display: inline-block; 
+    width: 10vw; 
+    background-color: #363830; 
+    margin-left: 24vw; 
+    }     
 #Image1{
     margin-top: 20vw;
     position: fixed;
