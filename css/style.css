@@ -8,14 +8,19 @@
 }
 .gridcontainer{
     display: grid   ;
-    grid-template-rows: repeat(2,2fr);
-    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
     border: 1px solid  black;
 }
 .item{
     display: grid   ;
-    grid-template-columns: repeat(2,2 repeat);
     border: 1px solid  black;
+}
+.item2{
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 #titulo{
     font-family: "Avenir",sans-serif;
@@ -28,15 +33,28 @@
 }
 #Boton{
     padding: 1vw;
-    background-color: #252525;
+    border-radius: 2vw;
+    border: none;
+    width: 6vw;
+    filter: invert();
+}
+.img{
+    display: flex;
 }
 #img1{
-    width: 5vw;
+    z-index: -1;
+    width: 15vw;
 }
 #img2{
-    width: 5vw;
+    z-index: +1;
+    width: 15vw;
 }
 #cloud{
     filter: invert();
 }
-
+#txt1{
+    font-family: "Avenir", sans-serif;
+}
+#contxt1{
+    font-family: "Avenirp",sans-serif;
+}
