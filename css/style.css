@@ -7,8 +7,9 @@
     src: url(/storage/font/AvenirLTStd-Roman.otf);
 }
 .gridcontainer{
+    margin: 3vw;
     display: grid   ;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-template-columns: repeat(2,1fr);
     border: 1px solid  black;
 }
@@ -24,11 +25,13 @@
 }
 #titulo{
     font-family: "Avenir",sans-serif;
-    font-size: 2vw;
+    font-size: 5vw;
+    margin-top: 7vw;
     color: #252525;
 }
 #contenido{
     font-family: "Avenirp",sans-serif;
+    font-size: 1.8vw;
 
 }
 #Boton{
@@ -39,22 +42,46 @@
     filter: invert();
 }
 .img{
+    align-items: center;
     display: flex;
 }
 #img1{
+    position: absolute;
+    margin-left: 8vw;
     z-index: -1;
-    width: 15vw;
+    width: 20vw;
 }
 #img2{
+    position: absolute;
+    margin-left: 23vw;
+    margin-top: 15.5vw;
     z-index: +1;
-    width: 15vw;
+    width: 20vw;
+}
+
+.item2p{
+    padding: 3vw;
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 45vw;
+    width: 83.5vw;
+    background-color: #252525;
 }
 #cloud{
+    font-family: "Avenirp",sans-serif;
+    font-size: 2vw;
+    float: left;
+    text-align: left;
     filter: invert();
 }
-#txt1{
-    font-family: "Avenir", sans-serif;
-}
-#contxt1{
+#cloud1{
     font-family: "Avenirp",sans-serif;
+    font-size: 2vw;
+    float: left;
+    text-align: left;
+    filter: invert();
+}
+#nube{
+    width: 2vw;
 }
