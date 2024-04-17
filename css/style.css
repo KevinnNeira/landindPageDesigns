@@ -26,19 +26,25 @@
 #titulo{
     font-family: "Avenir",sans-serif;
     font-size: 5vw;
+    margin: 0;
     margin-top: 7vw;
+    margin-bottom: 2vw;
     color: #252525;
 }
 #contenido{
+    margin: 0;
+    margin-bottom: 1.2vw;
     font-family: "Avenirp",sans-serif;
-    font-size: 1.8vw;
+    font-size: 1.9vw;
 
 }
 #Boton{
+    font-family: "Avenirp",sans-serif;
     padding: 1vw;
+    font-size: 1.5vw;
     border-radius: 2vw;
     border: none;
-    width: 6vw;
+    width: 12vw;
     filter: invert();
 }
 .img{
@@ -58,14 +64,19 @@
     z-index: +1;
     width: 20vw;
 }
-
+.item2{
+    align-items: center;
+    display: flex;
+    
+}
 .item2p{
-    padding: 3vw;
     display: grid;
     position: absolute;
     grid-template-columns: repeat(3,1fr);
-    margin-top: 45vw;
-    width: 83.5vw;
+    margin-top: 40vw;
+    width: 89vw;
+    height: 20vw;
+    border-radius: 5vw;
     background-color: #252525;
 }
 #cloud{
@@ -76,6 +87,7 @@
     filter: invert();
 }
 #cloud1{
+    padding: vw;
     font-family: "Avenirp",sans-serif;
     font-size: 2vw;
     float: left;
