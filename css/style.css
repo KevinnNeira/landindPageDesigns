@@ -87,11 +87,10 @@
     filter: invert();
 }
 #cloud1{
-    padding: vw;
+    justify-content: left;
+    padding: 1vw;
     font-family: "Avenirp",sans-serif;
     font-size: 2vw;
-    float: left;
-    text-align: left;
     filter: invert();
 }
 #nube{
