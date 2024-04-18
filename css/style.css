@@ -14,10 +14,12 @@
     margin: 2.5vw;
 }
 #titulo{
+    display: inline-block;
     font-family: "Avenir",sans-serif;
     font-size: 4.5vw;
 }
 #cont{
+    display: inline-block;
     color: #25252590;
     font-size: 1.6vw;
     font-family: "Avenirp", sans-serif;
@@ -32,5 +34,6 @@
     font-size: 1.5vw;
 }
 #lines{
-    align-items: center;
+    margin-bottom: 29vw;
+    margin-left: 25vw;
 }
