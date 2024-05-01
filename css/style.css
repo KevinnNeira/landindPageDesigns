@@ -6,34 +6,6 @@
     font-family: "Avenirp";
     src: url(/storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf);
 }
-.gridcontainer{
-    border: 1px solid black;
-}
-.item{
-    border: 1px solid black;
-    margin: 2.5vw;
-}
-#titulo{
-    display: inline-block;
-    font-family: "Avenir",sans-serif;
-    font-size: 4.5vw;
-}
-#cont{
-    display: inline-block;
-    color: #25252590;
-    font-size: 1.6vw;
-    font-family: "Avenirp", sans-serif;
-}
-#Boton{
-    border-radius: 3vw;
-    border: none;
-    width: 12vw;
-    filter: invert();
-    padding: 1vw;
-    font-family: "Avenirp", sans-serif;
-    font-size: 1.5vw;
-}
-#lines{
-    margin-bottom: 29vw;
-    margin-left: 25vw;
+#title{
+    
 }
