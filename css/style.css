@@ -6,13 +6,20 @@
     font-family: "Avenirp";
     src: url(storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf);
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
 .gridcontainer{
     top: 0;
     left: 0;
@@ -20,64 +27,106 @@ body{
     margin-left: 3vw;
     position: absolute;
 }
+
 #titulo{
-    font-family: "Avenir", sans-serif;
+    font-family: "AvenirHeavy", sans-serif;
     color: #252525;
     font-size: 4vw;
-}
-.Boton{
-    border-radius: 2vw;
-    width: 10vw;
-    margin-top: 1vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #252525;
-}
-#txtboton{
-    font-family: "PoppinsRegular", sans-serif;
-    font-size: 1.5vw;
-    padding: 0.7vw;
-    color: #ffffff;
 }
 #texto{
     font-family: "AvenirRoman", sans-serif;
     margin-top: 2vh;
     font-size: 1.4vw;
 }
+
+.Boton{
+    border-radius: 30px;
+    margin-top: 4vh;
+    display: inline-block;
+    background-color: #252525;
+}
+
+#txtboton{
+    font-family: "PoppinsRegular", sans-serif;
+    font-size: 1.5vw;
+    padding: 1.4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: #ffffff;
+}
+.Columnas{
+    width: 19vw;
+}
+
 #espiral{
     position: absolute;
     left: 0;
     bottom: 0;
-    margin-bottom: 3vw;
     margin-left: 10vw;
-    width: 8vw;
+    width: 7vw;
 }
-#lines{
+#Bars{
     top: 0;
+    left: 0;
+    margin-left: 28vw;
     margin-top: 3vw;
     position: absolute;
     width: 22vw;
 }
 #Star{
+    left: 0;
+    margin-left: 38vw;
     position: absolute;
     width: 14vw;
     z-index: +1;
-    margin-left: 16vw;
 }
 #Star2{
     position: absolute;
     width: 14vw;
     z-index: +1;
     right: 0;
-    margin-top: 14vw;
-    margin-right: 8vw;
+    margin-top: 23vw;
+    margin-right: 16vw;
 }
-#tarjetaprofile{
+#Cardprofile{
     position: absolute;
-    bottom: 0;
-    width: 36vw;
+    top: 0;
+    margin-top: 42vw;
+    width: 4vw;
     right: 0;
-    margin-bottom: 3vw;
-    margin-right: 8vw;
+    margin-right: 48vw;
+}
+#textprofile{
+    font-family: "Avenirp",sans-serif;
+    color: #25252580;
+    font-size: 1vw;
+    position: absolute;
+    top: 0;
+    margin-top: 42vw;
+    right: 0;
+    margin-right: 25vw;
+}
+.Galeria{
+    margin-top: 3vw;
+    right: 0;
+    margin-right: 13vw;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+}
+
+.img{
+    height: 24vw;
+    width: 17vw;
+}
+
+.Division1{
+    width: 100%;
+    height: 50%;
+}
+
+.Division2{
+    width: 100%;
+    height: 25%;
 }
