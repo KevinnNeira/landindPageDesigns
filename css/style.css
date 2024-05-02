@@ -6,3 +6,28 @@
     font-family: "Avenirp";
     src: url(/storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf);
 }
+.flexcontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#title{
+    margin: 0;
+    margin-top: 8vw;
+    font-size: 4vw;
+    font-family: "Avenir", sans-serif;
+}
+#id{
+    align-items: center;
+}
+#Boton{
+    border: none;
+    width: 11vw;
+    background-color: black;
+    border-radius: 3vw;
+}
+#txtb{
+    color: white;
+}
