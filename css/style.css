@@ -1,0 +1,15 @@
+html, body { height: 100% }
+
+body{
+    background: linear-gradient(#F8D696, #EABF61);
+}
+.mainContainer{
+    margin-top: 3vw;
+    margin-left: 3vw;
+    height: 92.5%;
+
+}
+#img{
+    margin-left: 50vw;
+    height: 91%;
+}
